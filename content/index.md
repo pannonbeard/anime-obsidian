@@ -1,15 +1,15 @@
-Here you'll find our notes of the world!
+Welcome to the world of Asuri
 ```base
 views:
   - type: leaflet-map
     name: Map
     mapName: test
     image: Images/Asuri.png
-    height: 400
+    height: 600
     minZoom: -1
     maxZoom: 5
-    defaultZoom: 0
+    defaultZoom: -0.5
     zoomDelta: 0.5
     scale: "0.2"
-    unit: m
+    unit: mi
 ```

@@ -1,16 +1,16 @@
-Sailor Moon
-Bleach
-Witch Blade
-Fruit Baskets
-Solo Leveling
-Cyberpunk
-Gurrenlagaan
-DragonBall
-Full Metal Alchemist
-Trigun
+## Inspiration
+- Sailor Moon
+- Bleach
+- Witch Blade
+- Fruit Baskets
+- Solo Leveling
+- Cyberpunk
+- Gurrenlagaan
+- Dragon Ball
+- Full Metal Alchemist
+- Trigun
 
-
-World Items (items to take away from our ideas)
+## World Items (items to take away from our ideas)
 - Being's have Transformations
 - Zero to hero
 - Philosopher stones
@@ -19,7 +19,7 @@ World Items (items to take away from our ideas)
 - Magic Items
 - Augmentations 
 
-World Setting ideas
+## World Setting ideas
 - Post apocalyptic 
 	- Walking Dead (Dead Ravished the world)
 - Lost Technology
