@@ -8,8 +8,10 @@ views:
     height: 800
     minZoom: -10
     maxZoom: 5
-    defaultZoom: -2
+    defaultZoom: -2.5
     zoomDelta: 0.5
     scale: "0.6"
     unit: mi
 ```
+
+
