@@ -1,7 +1,8 @@
 ---
 marker:
-  - coordinates: 435, 1058
+  - colour: "#04adff"
+    coordinates: 1766, 4791
     mapName: test
-    colour: "#04adff"
 ---
 A vast Desert of Scarred earth.
+
