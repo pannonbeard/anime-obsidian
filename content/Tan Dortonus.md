@@ -4,4 +4,4 @@ marker:
     mapName: test
     colour: "#e48873"
 ---
-The city that sits as the epicenter that cause the great desert. A war raged, the undead walked, and now Tan Doronus sits as a reminder of what Humans hubris can raght
+The city that sits as the epicenter that cause the great desert. A war raged, the undead walked, and now Tan Doronus sits as a reminder of what Humans hubris can raught. This place stands as the center of both the greatest war and greatest tragedy that the world has sceen
