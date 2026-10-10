@@ -11,6 +11,8 @@ configuration:
   ignorePatterns:
     - private
     - templates
+    - map-templates
+    - GM Notes
     - .obsidian
   theme:
     fontOrigin: googleFonts
