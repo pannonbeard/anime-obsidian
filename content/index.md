@@ -6,7 +6,7 @@ views:
     mapName: test
     image: Images/Asuri.png
     height: 800
-    minZoom: -1
+    minZoom: -10
     maxZoom: 5
     defaultZoom: -2
     zoomDelta: 0.5
