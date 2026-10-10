@@ -4,5 +4,5 @@ marker:
     coordinates: 1766, 4791
     mapName: test
 ---
-A vast Desert of Scarred earth.
+Rich in minerals and ores. Has seen civil war within its nations.
 
