@@ -1,7 +1,0 @@
-views:
-  - type: leaflet-map
-    name: View
-    image: Animer/World/Asuri.png
-    unit: MILES
-    center: 543, 257
-    defaultZoom: 0

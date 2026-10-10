@@ -4,7 +4,7 @@ views:
   - type: leaflet-map
     name: Map
     mapName: test
-    image: Animer/World/Asuri.png
+    image: Images/Asuri.png
     height: 400
     minZoom: -1
     maxZoom: 5
