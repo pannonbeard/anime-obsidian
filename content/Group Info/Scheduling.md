@@ -1,6 +1,14 @@
 2 groups Every other Sunday
 
-Group 1
+## Group A
+- Craige
+- Tink
+- Jeff
+- Alex
+- Patty
+## Group B
+- Justin
+- Jared
+- PJ
+- Fox
 
-
-Group 2
