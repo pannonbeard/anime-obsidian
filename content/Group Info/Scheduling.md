@@ -1,4 +1,4 @@
-2 groups Every other Sunday
+2 groups Alternating Sundays
 
 ## Group A
 - Craige
