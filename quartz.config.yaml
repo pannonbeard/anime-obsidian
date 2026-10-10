@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: pannonbeard.github.io/anime-campaign-wiki
+  baseUrl: pannonbeard.github.io/anime-obsidian/
   ignorePatterns:
     - private
     - templates
