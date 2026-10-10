@@ -4,4 +4,4 @@ marker:
     mapName: test
     colour: "#04adff"
 ---
-A vast Desert of Scarred earth
+A vast Desert of Scarred earth.
