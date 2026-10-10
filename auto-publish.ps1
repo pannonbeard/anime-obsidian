@@ -2,7 +2,7 @@
 $Vault        = "G:\My Drive\animer"
 $Quartz       = "C:\Users\Phil\quartz"
 $ExcludeDirs  = @("GM Notes", ".obsidian", ".git", ".trash")   # folders that must never be published
-$IntervalSecs = 10
+$IntervalSecs = 60
 
 Set-Location $Quartz
 Write-Host "Watching $Vault every $IntervalSecs seconds. Ctrl+C to stop."
