@@ -10,6 +10,6 @@ views:
     maxZoom: 5
     defaultZoom: -2
     zoomDelta: 0.5
-    scale: "0.2"
+    scale: "0.6"
     unit: mi
 ```
