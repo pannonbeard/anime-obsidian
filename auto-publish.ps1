@@ -11,6 +11,8 @@ while ($true) {
         git pull --rebase --autostash | Out-Null
         git push
         Write-Host "$(Get-Date -Format T) Published changes."
+    } else {
+      Write-Host "Nothing to commit."
     }
     Start-Sleep -Seconds $IntervalSecs
 }
