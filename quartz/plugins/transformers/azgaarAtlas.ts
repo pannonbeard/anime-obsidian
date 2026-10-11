@@ -4,7 +4,7 @@ import { createHash } from "node:crypto"
 import type { Root, Element } from "hast"
 import type { QuartzTransformerPlugin, QuartzEmitterPlugin } from "../types"
 import { pathToRoot, simplifySlug, type FullSlug } from "../../util/path"
-import runtime from "./azgaarAtlas.inline"
+import runtime from "./azgaarAtlas.runtime"
 import Core from "./azgaarAtlasCore"
 
 function walk(node: any, visitor: (node: Element, parent: any, index: number) => void) {
