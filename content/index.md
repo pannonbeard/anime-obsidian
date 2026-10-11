@@ -14,9 +14,3 @@ views:
     unit: mi
 ```
 
-
-
-```azgaar-map
-Maps/Boury 2026-10-10-18-37.atlas.json
-```
-
