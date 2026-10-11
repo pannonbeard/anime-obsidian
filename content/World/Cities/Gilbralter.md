@@ -1,1 +1,1 @@
-The port city that lies in the eastern part of the [[Arenae Desert]].
+The port city that lies in the North Eastern part of the [[Arenae Desert]].
