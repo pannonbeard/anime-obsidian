@@ -1,2 +1,3 @@
 ![[Elgarken Crag.png]]
-Underground and cave use to hide sophisticated techno-cities.
+
+Underground and cave use to hide sophisticated techno-cities. Bandits, serfs
