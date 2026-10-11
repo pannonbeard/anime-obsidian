@@ -30,7 +30,7 @@ function parseMap(text, title = "Fantasy map") {
   const records = text.replace(match[0], "__ATLAS_SVG__").split(/\r?\n/);
   const standalone = /^\s*(?:<\?xml[^>]*>\s*)?(?:<!DOCTYPE[^>]*>\s*)?<svg\b/i.test(text);
   const header = records[0].split("|");
-  let settlements = [];
+  let settlements = [],relief;
   if (!standalone) {
     if (!header[0] || !header[0].match(/^\d+\.\d+/) || records[5] !== "__ATLAS_SVG__")
       throw Error("Unsupported Azgaar record layout. Export an SVG instead, or send this .map for compatibility testing.");
@@ -41,8 +41,17 @@ function parseMap(text, title = "Fantasy map") {
     settlements = burgs.filter(b => b && b.i && !b.removed && Number.isFinite(b.x) && Number.isFinite(b.y))
       .map(b => ({id: "burg-" + b.i, name: String(b.name || "Settlement " + b.i), x:b.x, y:b.y,
         state: String(states[b.state]?.name || ""), capital: !!b.capital, population: Number(b.population) || 0}));
+    if(records[49]?.trim().startsWith("[")){
+      try{
+        const icons=JSON.parse(records[49]);
+        const style=records[48]?JSON.parse(records[48]):{};
+        const layers=records[50]?JSON.parse(records[50]):null;
+        relief={icons,set:style.relief?.options?.set||"simple",size:style.relief?.options?.size??1,
+          enabled:Array.isArray(layers?.active)?layers.active.includes("relief"):true};
+      }catch{throw Error("Invalid relief data in this .map file.");}
+    }
   }
-  return {schema:1, title, sourceVersion:standalone ? "SVG" : header[0], svg:match[0], settlements, pins:[], regions:[], links:{}};
+  return validateAtlas({schema:1, title, sourceVersion:standalone ? "SVG" : header[0], svg:match[0], settlements, pins:[], regions:[], links:{},relief});
 }
 function validateAtlas(data) {
   if (!data || data.schema !== 1 || typeof data.svg !== "string" || !Array.isArray(data.settlements) || !Array.isArray(data.pins)
@@ -58,6 +67,23 @@ function validateAtlas(data) {
       !/^#[0-9a-f]{6}$/i.test(region.color) || !Array.isArray(region.points) || region.points.length<3 ||
       region.points.some(p=>!Array.isArray(p)||p.length!==2||!p.every(Number.isFinite)))
       throw Error("Invalid region boundary or color.");
+  }
+  if(data.relief!==undefined){
+    const r=data.relief;
+    if(!r || !Array.isArray(r.icons) || typeof r.set!=="string" || !Number.isFinite(r.size) || r.size<=0)
+      throw Error("Invalid relief settings.");
+    for(const icon of r.icons){
+      if(!icon || ![icon.x,icon.y,icon.s].every(Number.isFinite) || icon.s<=0 ||
+        (typeof icon.type!=="string" && typeof icon.icon!=="string") ||
+        (icon.variant!==undefined && (!Number.isInteger(icon.variant)||icon.variant<1)))
+        throw Error("Invalid relief icon data.");
+    }
+  }
+  if(data.viewSettings?.reliefMinZoom!==undefined){
+    const settings=data.viewSettings.reliefMinZoom;
+    if(!settings || typeof settings!=="object" || Array.isArray(settings) ||
+      Object.values(settings).some(v=>v!==null && (!Number.isFinite(v)||v<0||v>100)))
+      throw Error("Invalid terrain zoom thresholds (use 0–100 or null to hide).");
   }
   return data;
 }

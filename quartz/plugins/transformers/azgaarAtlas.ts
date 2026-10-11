@@ -96,7 +96,7 @@ export const AzgaarAtlasAssets: QuartzEmitterPlugin = () => ({
       const safe = {
         schema: 1, title: atlas.title, sourceVersion: atlas.sourceVersion, svg: atlas.svg,
         settlements: atlas.settlements, pins: atlas.pins, regions: atlas.regions,
-        viewSettings: atlas.viewSettings, links,
+        viewSettings: atlas.viewSettings, relief: atlas.relief, links,
       }
       const destination = path.join(ctx.argv.output, "_atlas", id + ".json")
       await fs.mkdir(path.dirname(destination), { recursive: true })
