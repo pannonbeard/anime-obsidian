@@ -2,6 +2,7 @@ import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/conf
 import { AzgaarAtlas, AzgaarAtlasAssets } from "./quartz/plugins/transformers/azgaarAtlas"
 
 const config = await loadQuartzConfig()
+
 config.plugins.transformers.unshift(AzgaarAtlas())
 config.plugins.emitters.push(AzgaarAtlasAssets())
 config.configuration.ignorePatterns.push("**/*.atlas.json", "**/*.map")
