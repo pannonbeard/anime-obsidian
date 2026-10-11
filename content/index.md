@@ -1,5 +1,4 @@
 Welcome to the world of Asuri!
-
 ```azgaar-map
-Maps/Boury 2026-10-10-20-49.atlas.json
+Maps/Boury 2026-10-11-13-21.atlas.json
 ```

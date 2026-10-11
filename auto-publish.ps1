@@ -1,4 +1,4 @@
-$Quartz       = "C:\Users\Phil\quartz"
+$Quartz       = "D:\Obsidian Vault\animer"
 $IntervalSecs = 60
 
 Set-Location $Quartz
