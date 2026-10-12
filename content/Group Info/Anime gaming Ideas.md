@@ -31,7 +31,7 @@
 	- Anywhere from replacement appendage to full body replacement
 	- A certain amount of augmentation can cause a psychosis
 - Magitech distrubs the natural balance ( People believe that magitech is ruining the world and natural balance )
-- Advent of Magic is fairly recent
+- Advent of Magic is fairly recent 
 - Ancient scrolls
 - In the past, the world was almost destroyed
 - Multi - Species
@@ -48,5 +48,5 @@
 	- Lizard Folk (Scalekin)
 	- Insectoid (Thrikeen)
 - Airships -> Zeppelins (oh the huge manatee)
-- 
+- Chokabos
 
