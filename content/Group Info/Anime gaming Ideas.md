@@ -36,4 +36,17 @@
 - In the past, the world was almost destroyed
 - Multi - Species
 - 4 factions (Pro Magic, Anti Magic, Precursors, Adventuring)
+- Big City -> Technology driven, steam, cogs springs etc. (Diesel - punk)
+	- "scientists" -> figured ways of harnessing / concentrating magic into a type of battery
+	- Cusp of fully harnessing magic
+	- Mt. Bayside
+- Inhabitants:
+	- Humans
+	- Beastkin
+	- Dwarves
+	- Elves
+	- Lizard Folk (Scalekin)
+	- Insectoid (Thrikeen)
+- Airships -> Zeppelins (oh the huge manatee)
+- 
 
