@@ -1,5 +1,5 @@
 Group A
-Patty - 
+Paddy - 
 Tink - 
 Craige -
 Jeff -
