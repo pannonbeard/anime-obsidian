@@ -1,9 +1,9 @@
 Group A
-Paddy - 
+Paddy -  
 Tink - 
-Craige -
-Jeff -
-Alexis -
+Kraig - 
+Jeff - 
+Alexis - 
 
 Group B
 Justin -
