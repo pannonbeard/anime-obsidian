@@ -1,9 +1,9 @@
 Group A
-Paddy - Anos Voldigoad
+Paddy - Anos Voldigoad ()
 Tink - 
 Kraig - 
-Jeff - 
-Alexis - 
+Jeff - Het Scarobos
+Alexis - Kyria
 
 Group B
 Justin -
