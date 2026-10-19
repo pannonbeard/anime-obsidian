@@ -1,8 +1,8 @@
 Group A
 Paddy - Anos Voldigoad (Commander Healer)
 Tink - 
-Kraig - T
-Jeff - Het Scarobos
+Kraig - Sgt. Trotszishk "Sarge" Akuchi (Ronin Commander)
+Jeff - Het Scarobos ()
 Alexis - Kyria
 
 Group B
