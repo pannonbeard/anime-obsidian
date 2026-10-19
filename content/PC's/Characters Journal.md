@@ -1,7 +1,7 @@
 Group A
-Paddy - Anos Voldigoad ()
+Paddy - Anos Voldigoad (Commander Healer)
 Tink - 
-Kraig - 
+Kraig - T
 Jeff - Het Scarobos
 Alexis - Kyria
 
