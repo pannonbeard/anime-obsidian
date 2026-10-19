@@ -1,6 +1,6 @@
 Group A
 Paddy - Anos Voldigoad (Commander Healer)
-Tink - 
+Tink - Skylar Wilde (Princess Mon)
 Kraig - Sgt. (Trots)zishk "Sarge" Akuchi (Ronin Commander)
 Jeff - Het Scarobos (Merchant and pervary of oddities)
 Alexis - Kyria (I protect the bug)
