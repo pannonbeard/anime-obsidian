@@ -1,5 +1,5 @@
 Group A
-Paddy -  
+Paddy - 
 Tink - 
 Kraig - 
 Jeff - 
