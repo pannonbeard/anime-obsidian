@@ -37,24 +37,20 @@
   </div>
 </div>
 <div class="character-card" style='--text-color: white; --border-color:#E2A537; --base-color:#171618;'>
- 
   <div class="character-portrait">
 	 <div class="portrait-background"></div>
 	<img src="Horned Knight with Twin Shields-3.png"  style='--width:350px;--left-offset:-60%'>
   </div>
-
   <div class="character-info">
     <div class="character-header">
       <img src="Horned Black-and-Gold Shield Knight-5.png">
       <h1>Sgt. (Trots)zishk "Sarge" Akuchi</h1>
     </div>
-
     <p>Player: Kraig </p>
     <p>Ronin Commander</p>
   </div>
 </div>
 <div class="character-card" style='--text-color: white; --border-color:#8467A4; --base-color: #0C7854;'>
- 
   <div class="character-portrait">
 	 <div class="portrait-background"></div>
 	<img src="Beetle Explorer With Glowing Potion.png"  style='--width:300px;--left-offset:-30%'>
@@ -65,7 +61,6 @@
       <img src="Emerald Beetle Adventurer Pixel Sprite.png">
       <h1>Het Scarabos</h1>
     </div>
-
     <p>Player: Jeff </p>
     <p>(Merchant and purveyor of oddities) -> Cat Sized Golden Scarab: Menosoph</p>
   </div>
