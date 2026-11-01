@@ -22,7 +22,7 @@
 	<div class="character-card" style='--text-color: white; --border-color:#F3C47B; --base-color:#494B30;'>
 	  <div class="character-portrait">
 		 <div class="portrait-background"></div>
-		<img src="Pixel Elven Archer in Leaf Armor-1.png"  style='--width:270px;--left-offset:-20%'>
+		<img src="Pixel Elven Archer in Leaf Armor-1.png"  style='--width:270px;--left-offset:-15%'>
 	  </div>
 	  <div class="character-info">
 	    <div class="character-header">
