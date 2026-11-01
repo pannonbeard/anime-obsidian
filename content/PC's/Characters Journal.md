@@ -95,7 +95,7 @@
 ---
 ## Group B
 
-![[Five Pixel Heroes in a Rainy Alley.png|395]]
+![[Five Pixel Heroes in a Rainy Alley.png|780]]
 
 
 <div class="character-card" style='--text-color: white; --border-color: #FED269; --base-color:#344C7D;'>
