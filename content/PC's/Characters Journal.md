@@ -82,6 +82,7 @@
 
 ![[Five Pixel Heroes in a Rainy Alley.png|780]]
 
+<div  class="card-container">
 <div class="character-card" style='--text-color: white; --border-color: #FED269; --base-color:#344C7D;'>
   <div class="character-portrait">
 	 <div class="portrait-background"></div>
@@ -151,4 +152,5 @@
     <p>Player: Jason</p>
     <p>Good at Finding things</p>
   </div>
+</div>
 </div>
