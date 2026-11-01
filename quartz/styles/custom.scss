@@ -1,9 +1,12 @@
-@use "./variables.scss" as *;
-
 
 /* =========================================
    CHARACTER CARD
    ========================================= */
+
+.card-container{
+  display: grid;
+  container: card-container / inline-size;
+}
 
 .character-card {
   --base-color: #cbd4ee;
@@ -24,8 +27,12 @@
   font-family: Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  box-shadow: inset 0 0px 12px rgba(0, 0, 0, 1);
+   box-shadow: inset 0 0px 12px rgba(0, 0, 0, 1);
   margin-bottom: 1rem;
+
+  @container card-container (max-width: 700px) {
+    grid-template-columns: 110px 1fr;   
+  }
 }
 
 /* =========================================
@@ -38,6 +45,10 @@
   justify-content: center;
   height: 400px;
   position: relative;
+
+  @container card-container (max-width: 700px) {
+    height: 200px;
+  }
 }
 
 .character-portrait .portrait-background{
@@ -46,6 +57,10 @@
   width: 155px;
   background: white;
   border-radius: 10px;
+
+  @container card-container (max-width: 700px) {
+    width: 101px !important;
+  }
 }
 
 /* Character image */
@@ -66,6 +81,12 @@
   image-rendering: pixelated !important;
   background: transparent !important;
   z-index: 2 !important;
+
+  @container card-container (max-width: 700px) {
+    width: calc(var(--width) / 2) !important;
+    left: -50%;
+    transform: translate(10%,-50%) !important;
+  }
 }
 
 /* =========================================
@@ -114,6 +135,10 @@
   margin: 0;
   padding: 0;
   border: none;
+
+  @container card-container (max-width: 700px) {
+    font-size: 25px;
+  }
 }
 
 /* Player and description */
@@ -123,36 +148,4 @@
   margin: 0;
   color: var(--text-color) !important;
 }
-
-/* =========================================
-   RESPONSIVE DESIGN
-   ========================================= */
-
-/* @media (max-width: 600px) {
-  .character-card {
-    grid-template-columns: 100px minmax(0, 1fr);
-    gap: 15px;
-    padding: 15px;
-    min-height: 0;
-  }
-
-  .character-portrait img {
-    width: 100px;
-    height: auto;
-    max-height: 300px;
-  }
-
-  .character-header {
-    flex-wrap: wrap;
-  }
-
-  .character-header img {
-    width: 45px;
-    height: 45px;
-  }
-
-  .character-header h1 {
-    font-size: 24px;
-  }
-} */
 
