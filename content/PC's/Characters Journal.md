@@ -18,7 +18,6 @@
 	    <p>(Commander Healer) </p>
 	  </div>
 	</div>
-
 	<div class="character-card" style='--text-color: white; --border-color:#F3C47B; --base-color:#494B30;'>
 	  <div class="character-portrait">
 		 <div class="portrait-background"></div>
