@@ -2,20 +2,23 @@
 
 ![[Five companions cross desert ruins at sunset.png|847]]
 
-<div class="character-card" style='--text-color: white; --border-color: #7C3F2F; --base-color:#3F3A41;'>
-  <div class="character-portrait">
-	 <div class="portrait-background"></div>
-	<img src="Chibi RPG Hero with Silver Pauldrons-1.png"  style='--width:270px;--left-offset:-20%'>
-  </div>
-  <div class="character-info">
-    <div class="character-header">
-      <img src="Tiny retro fantasy knight sprite-2.png">
-      <h1>Anos Voldigoad</h1>
-    </div>
-    <p>Player: Paddy </p>
-    <p>(Commander Healer) </p>
-  </div>
-</div>
+
+<div  class="card-container">
+	<div class="character-card" style='--text-color: white; --border-color: #7C3F2F; --base-color:#3F3A41;'>
+	  <div class="character-portrait">
+		 <div class="portrait-background"></div>
+		<img src="Chibi RPG Hero with Silver Pauldrons-1.png"  style='--width:270px;--left-offset:-20%'>
+	  </div>
+	  <div class="character-info">
+	    <div class="character-header">
+	      <img src="Tiny retro fantasy knight sprite-2.png">
+	      <h1>Anos Voldigoad</h1>
+	    </div>
+	    <p>Player: Paddy </p>
+	    <p>(Commander Healer) </p>
+	  </div>
+	</div>
+
 <div class="character-card" style='--text-color: white; --border-color:#F3C47B; --base-color:#494B30;'>
   <div class="character-portrait">
 	 <div class="portrait-background"></div>
@@ -71,6 +74,7 @@
     <p>Player: Alex </p>
     <p>I Protect the Bug!</p>
   </div>
+</div>
 </div>
 
 ---
