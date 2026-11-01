@@ -19,7 +19,6 @@
     <p>(Commander Healer) </p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color:#F3C47B; --base-color:#494B30;'>
  
   <div class="character-portrait">
@@ -37,7 +36,6 @@
     <p>(Princess Monster Hunter) -> Dog (German Shepard) Astrid</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color:#E2A537; --base-color:#171618;'>
  
   <div class="character-portrait">
@@ -55,7 +53,6 @@
     <p>Ronin Commander</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color:#8467A4; --base-color: #0C7854;'>
  
   <div class="character-portrait">
@@ -73,7 +70,6 @@
     <p>(Merchant and purveyor of oddities) -> Cat Sized Golden Scarab: Menosoph</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color:#F8D4B2; --base-color:#573528;'>
  
   <div class="character-portrait">
@@ -97,7 +93,6 @@
 
 ![[Five Pixel Heroes in a Rainy Alley.png|780]]
 
-
 <div class="character-card" style='--text-color: white; --border-color: #FED269; --base-color:#344C7D;'>
  
   <div class="character-portrait">
@@ -115,7 +110,6 @@
     <p>Elf with clipped ears</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color: #A71A1B; --base-color:#231E23;'>
  
   <div class="character-portrait" >
@@ -133,7 +127,6 @@
     <p>The Bunker Cannon</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color: #45845B; --base-color:#0C0C0D;'>
  
   <div class="character-portrait">
@@ -151,7 +144,6 @@
     <p>Cyborg (leader of Bokzoku gang) Kamen Rider)</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color:#8A6E4F; --base-color:#4E4C56;'>
  
   <div class="character-portrait">
@@ -169,7 +161,6 @@
     <p>Replicant? Friend of Garret, Private Eye (For Illegal Magitech)</p>
   </div>
 </div>
-
 <div class="character-card" style='--text-color: white; --border-color: #8D323C; --base-color:#41363D;'>
  
   <div class="character-portrait">
