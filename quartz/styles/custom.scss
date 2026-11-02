@@ -27,11 +27,12 @@
   font-family: Arial, sans-serif;
   position: relative;
   overflow: hidden;
-   box-shadow: inset 0 0px 12px rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0px 12px rgba(0, 0, 0, 1);
   margin-bottom: 1rem;
 
   @container card-container (max-width: 700px) {
-    grid-template-columns: 110px 1fr;   
+    grid-template-columns: 1fr;  
+    padding: 0;
   }
 }
 
@@ -47,7 +48,8 @@
   position: relative;
 
   @container card-container (max-width: 700px) {
-    height: 200px;
+    position: unset;
+    height: 100px;
   }
 }
 
@@ -59,7 +61,8 @@
   border-radius: 10px;
 
   @container card-container (max-width: 700px) {
-    width: 101px !important;
+    width: 75px !important;    
+    height: 80%;
   }
 }
 
@@ -83,9 +86,12 @@
   z-index: 2 !important;
 
   @container card-container (max-width: 700px) {
-    width: calc(var(--width) / 2) !important;
-    left: -50%;
-    transform: translate(10%,-50%) !important;
+    width: auto !important;
+    height: 150px !important;
+    grid-area: 1 / 1;
+    transform: unset !important;
+    top: 1% !important;
+    left: unset !important;
   }
 }
 
@@ -104,6 +110,10 @@
   z-index: 10;
   box-shadow: -5px 0 5px rgba(0,0,0,0.5);
   padding: 1rem;
+  @container card-container (max-width: 700px) {
+    border-top: 5px solid var(--border-color);
+    border-left: unset;
+  }
 }
 
 /* Header: icon and name */
