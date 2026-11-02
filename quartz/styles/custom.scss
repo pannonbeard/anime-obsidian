@@ -6,6 +6,8 @@
 .card-container{
   display: grid;
   container: card-container / inline-size;
+  position: relative;
+  z-index: 1;
 }
 
 .character-card {
